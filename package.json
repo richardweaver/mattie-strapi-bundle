@@ -46,9 +46,15 @@
     "email": "mattiebelt@gmail.com",
     "url": "https://github.com/MattieBelt"
   },
-  "homepage": "https://github.com/MattieBelt/mattie-strapi-bundle",
-  "repository": "github:MattieBelt/mattie-strapi-bundle",
-  "bugs": "https://github.com/MattieBelt/mattie-strapi-bundle/issues",
+  "contributors": [
+    {
+      "name": "Richard Weaver",
+      "url": "https://github.com/richardweaver"
+    }
+  ],
+  "homepage": "https://github.com/richardweaver/mattie-strapi-bundle",
+  "repository": "github:richardweaver/mattie-strapi-bundle",
+  "bugs": "https://github.com/richardweaver/mattie-strapi-bundle/issues",
   "lint-staged": {
     "*.{js,md,css,scss,yaml,yml}": [
       "prettier --write"
@@ -58,7 +64,7 @@
     ]
   },
   "engines": {
-    "node": ">=12.9.x <=16.x.x",
+    "node": ">=12.9.x <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "SEE LICENSE IN LICENSE"

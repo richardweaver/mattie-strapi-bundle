@@ -1,5 +1,5 @@
 {
-  "name": "@mattie-bundle/mattie-strapi-bundle-example",
+  "name": "@richardweaver/mattie-strapi-bundle-example",
   "version": "1.0.0-alpha.3",
   "description": "A Strapi example application for the mattie-strapi-bundle",
   "scripts": {
@@ -9,8 +9,8 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@mattie-bundle/strapi-plugin-search": "^1.0.0-alpha.3",
-    "@mattie-bundle/strapi-provider-search-algolia": "^1.0.0-alpha.3",
+    "@richardweaver/strapi-plugin-search": "^1.0.0-alpha.3",
+    "@richardweaver/strapi-provider-search-algolia": "^1.0.0-alpha.3",
     "@strapi/plugin-i18n": "4.0.6",
     "@strapi/plugin-users-permissions": "4.0.6",
     "@strapi/strapi": "4.0.6",
@@ -21,11 +21,17 @@
     "email": "mattiebelt@gmail.com",
     "url": "https://github.com/MattieBelt"
   },
+  "contributors": [
+    {
+      "name": "Richard Weaver",
+      "url": "https://github.com/richardweaver"
+    }
+  ],
   "strapi": {
     "uuid": "5a3ccf76-918e-430e-93ea-eedce04e058d"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.x.x <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "SEE LICENSE IN LICENSE"

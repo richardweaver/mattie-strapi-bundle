@@ -1,5 +1,5 @@
 {
-  "name": "@mattie-bundle/strapi-plugin-search",
+  "name": "@richardweaver/strapi-plugin-search",
   "version": "1.0.0-alpha.3",
   "description": "Index managed content on Strapi to a search service.",
   "strapi": {
@@ -22,20 +22,26 @@
     "search",
     "service"
   ],
-  "homepage": "https://strapi-plugin-search.mattiebelt.com",
+  "homepage": "https://github.com/richardweaver/mattie-strapi-bundle",
   "repository": {
     "type": "git",
-    "url": "github:MattieBelt/mattie-strapi-bundle",
+    "url": "github:richardweaver/mattie-strapi-bundle",
     "directory": "packages/search/strapi-plugin-search"
   },
-  "bugs": "https://github.com/MattieBelt/mattie-strapi-bundle/issues",
+  "bugs": "https://github.com/richardweaver/mattie-strapi-bundle/issues",
   "author": {
     "name": "Mattias Belt, van den",
     "email": "mattiebelt@gmail.com",
     "url": "https://github.com/MattieBelt"
   },
+  "contributors": [
+    {
+      "name": "Richard Weaver",
+      "url": "https://github.com/richardweaver"
+    }
+  ],
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.x.x <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "SEE LICENSE IN LICENSE"
