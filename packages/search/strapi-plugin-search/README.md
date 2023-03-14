@@ -1,23 +1,22 @@
-[![mattie-strapi-bundle](https://mattie-bundle.mattiebelt.com/logo.svg)](https://mattie-bundle.mattiebelt.com/)
+A modified version of [Mattie Belt's Strapi search plugin](https://mattie-bundle.mattiebelt.com/) that adds reindexing functionality and respect for publication state.
 
 # strapi-search-plugin
 
-[![Tests](https://github.com/MattieBelt/mattie-strapi-bundle/actions/workflows/tests.yml/badge.svg)](https://github.com/MattieBelt/mattie-strapi-bundle/actions)
-[![Codecov](https://img.shields.io/codecov/c/github/MattieBelt/mattie-strapi-bundle.svg?style=flat-square)](https://codecov.io/gh/MattieBelt/mattie-strapi-bundle)
-[![Strapi](https://img.shields.io/npm/dependency-version/@mattie-bundle/mattie-strapi-bundle-example/@strapi/strapi)](https://github.com/strapi/strapi)
-[![License](https://img.shields.io/github/license/MattieBelt/mattie-strapi-bundle.svg?style=flat-square)](./LICENSE)
-
-This Search Plugin is part of the Mattie Bundle for Strapi.
+The original Search Plugin is part of the Mattie Bundle for Strapi.
 
 The bundle brings extra easy-to-use features to the Strapi eco-system.
 
+This fork adds support for a full reindexing to the Search plugin. This depends on a new `clear()` method adding to search providers, which is available in my fork of the [Algolia Search Provider](https://github.com/richardweaver/mattie-strapi-bundle).
+
+This fork also does not index content items when the draft system is enabled and items are not published.
+
 ## Documentation 📚
 
-[mattie-bundle.mattiebelt.com](https://mattie-bundle.mattiebelt.com/search/plugin)
+[mattie-bundle.mattiebelt.com](https://mattie-bundle.mattiebelt.com)
 
 ## Other packages ✨
 
-- [Algolia Search Provider](https://mattie-bundle.mattiebelt.com/search/providers#algolia)
+- [Algolia Search Provider](https://github.com/richardweaver/mattie-strapi-bundle)
 
 ## License
 

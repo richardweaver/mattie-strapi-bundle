@@ -1,15 +1,12 @@
-[![mattie-strapi-bundle](https://mattie-bundle.mattiebelt.com/logo.svg)](https://mattie-bundle.mattiebelt.com/)
+A modified version of [Mattie Belt's Algolia search provider](https://mattie-bundle.mattiebelt.com/) that adds index clearing.
 
 # strapi-provider-search-algolia
 
-[![Tests](https://github.com/MattieBelt/mattie-strapi-bundle/actions/workflows/tests.yml/badge.svg)](https://github.com/MattieBelt/mattie-strapi-bundle/actions)
-[![Codecov](https://img.shields.io/codecov/c/github/MattieBelt/mattie-strapi-bundle.svg?style=flat-square)](https://codecov.io/gh/MattieBelt/mattie-strapi-bundle)
-[![Strapi](https://img.shields.io/npm/dependency-version/@mattie-bundle/mattie-strapi-bundle-example/@strapi/strapi)](https://github.com/strapi/strapi)
-[![License](https://img.shields.io/github/license/MattieBelt/mattie-strapi-bundle.svg?style=flat-square)](./LICENSE)
-
-This [Algolia](https://www.algolia.com/) Search Provider is part of the Mattie Bundle for Strapi.
+The original [Algolia](https://www.algolia.com/) Search Provider is part of the [Mattie Bundle for Strapi](https://mattie-bundle.mattiebelt.com/).
 
 The bundle brings extra easy-to-use features to the Strapi eco-system.
+
+This fork adds support for a clearing an index. This enables full reindexing support in my fork of the Search plugin.
 
 ## Documentation 📚
 
@@ -17,7 +14,7 @@ The bundle brings extra easy-to-use features to the Strapi eco-system.
 
 ## Other packages ✨
 
-- [Search Plugin](https://mattie-bundle.mattiebelt.com/search/plugin)
+- [Search Plugin](https://github.com/richardweaver/mattie-strapi-bundle)
 
 ## License
 
