@@ -2886,12 +2886,12 @@
     "@strapi/utils" "4.0.6"
     lodash "4.17.21"
 
-"@strapi/plugin-i18n@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.0.6.tgz#ed5a4d2a97fa09fca20eb33133b44a3f3a6028d1"
-  integrity sha512-dZjPcA7o83BjwilboLewRVatfUrhaADziGZYNq2XTgdWahtY/BcZPBRtwph2NjrHeo/XMjVVeC07PdT67Qrh0Q==
+"@strapi/plugin-i18n@4.7.1":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.7.1.tgz#5b3cdfd400609c62e0b06a586b954819b18d36f4"
+  integrity sha512-HPS4za1Qm68CSYywDpz673rHoUeTxPSUDWmRH9L8cpPsxCSk1eJ+Rh/+0cQAagYYmUudrEq+ShF7AlfHmnl0yg==
   dependencies:
-    "@strapi/utils" "4.0.6"
+    "@strapi/utils" "4.7.1"
     lodash "4.17.21"
 
 "@strapi/plugin-upload@4.0.6":
@@ -3013,7 +3013,7 @@
     statuses "2.0.1"
     uuid "^3.3.2"
 
-"@strapi/utils@4.0.6", "@strapi/utils@^4.0.0":
+"@strapi/utils@4.0.6":
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.6.tgz#768ee569dcb4f397fb7769f9ba11395f80970eb4"
   integrity sha512-8DlZ7tAm9LC5nFi5mAajhLh8OCodE2nKXkIMgom6Nr4GC423anVoOEmYpv+cUkdfO8hohrnnIG+RzJMgDBfGCg==
@@ -3022,6 +3022,18 @@
     date-fns "2.24.0"
     http-errors "1.8.0"
     lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.7.1", "@strapi/utils@^4.0.0":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.7.1.tgz#d019f9f10d3856e1aff3ffe670ad7564b6005ad8"
+  integrity sha512-qlUG5//Rk1Yr+PYcE9S+Q76qjxFIQBZEkw8psk6E287bO8Fd7AKshF1HXaQJkSD+hncYnPmLt5Uhe/r22xX/PA==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
     yup "0.32.9"
 
 "@szmarczak/http-timer@^4.0.5":
@@ -5623,6 +5635,11 @@ date-fns@2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
   integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
+
+date-fns@2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 dateformat@^3.0.0:
   version "3.0.3"
